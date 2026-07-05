@@ -179,3 +179,21 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Streamlit
+.streamlit/secrets.toml
+
+# Local dataset paths / private data
+data/raw/
+*.csv
+
+# Trained ML models
+*.pkl
+*.joblib
+
+# Local editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

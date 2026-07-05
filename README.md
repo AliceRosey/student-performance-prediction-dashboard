@@ -360,7 +360,7 @@ Recommended `.gitignore` lines:
 # Dataset files
 *.csv
 
-# Keep the data folder but ignore dataset files
+# Dataset files are not included because they must be downloaded from Kaggle
 data/*
 !data/.gitkeep
 ```
